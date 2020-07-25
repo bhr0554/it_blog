@@ -1,7 +1,7 @@
 baseURL = "https://bhr0554.github.io/"
 languageCode = "ko-kr"
 title = "My New Hugo Site"
-theme = "liva-hugo"
+theme = "material-design"
 [taxonomies]
 	category = "categories"
 	tag = "tags"
