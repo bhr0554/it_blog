@@ -15,6 +15,7 @@ this is test page.
 
 * * *
 밑줄은 별3개
-링크는 Link: [Google] [https://www.google.com/]
+링크는 Link: [Google] [googlelink]
+[googlelink]: https://www.google.com/
 또는 Google : <https://www.google.com/>
 
