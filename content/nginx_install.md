@@ -6,5 +6,5 @@ tags: [nginx, nginx_install]
 cover: ""
 draft: false
 ---
-![pcre library1](/images/pcre1.PNG)
+![pcre library1](/nginx/pcre1.PNG)
 nginx
