@@ -41,12 +41,12 @@ $ systemctl start docker (docker 실행)
 Docker를 쓰는 가장 큰 이유는 환경설정이 매우 간단하기 때문이다.  
 기본적으로 docker에서 제공해주는 이미지들이 있어 명령어 몇 줄 입력하는 것으로 server세팅을 할 수가 있다.  
   
-예로, 아래 링크는 docker를 이용한 mariadb와 mysql 세팅 방법이다.
-Link: <https://bhr0554.github.io/study/docker/docker_mysql>
+예로, 아래 링크는 docker를 이용한 mariadb와 mysql 세팅 방법이다.  
+Link: <https://bhr0554.github.io/study/docker/docker_mysql>  
   
   
 Docker는 VM과 비슷하게 보일 수 있으나 큰 차이점을 가지고 있다.  
-VM은 Host OS위에 Guest OS를 설치해야 하고, Docker는 Host OS를 함께 사용한다는 것이다.
+VM은 Host OS위에 Guest OS를 설치해야 하고, Docker는 Host OS를 함께 사용한다는 것이다.  
 즉, VM의 경우 App하나를 구동시키기 위해 그에 맞는 Guest OS 등 환경설정을 달리 해야 하며, 가상의 공간을 나눔으로써 제한적인 자원(HDD, CPU 등) 공간을 갖게 되어 속도가 느려지게 되는 반면, Docker의 경우에는 Host OS위에서 동작하여 Application을 동작시키기 위해 Host에 없는 것만을 추가적으로 설치하여 실행되기 때문에 VM에 비해 속도가 빠를 수밖에 없다.  
 이것은 곧, Docker는 어느 환경에서나 동일하게 작용된다는 것과 같은 뜻이다.  
 애플리케이션을 환경에 구애 받지 않고 실행하는 것이 Docker의 기술이다.  

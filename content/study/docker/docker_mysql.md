@@ -28,4 +28,5 @@ $ docker search mariadb
 $ docker full mariadb  
 $ docker run --name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=mariadb mariadb  
 $ docker exec -it mariadb /bin/bash  
-
+  
+참고 : <https://velog.io/@hongji3354/Docker%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-MariaDB-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0>
