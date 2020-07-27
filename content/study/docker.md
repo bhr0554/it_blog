@@ -42,7 +42,7 @@ Docker를 쓰는 가장 큰 이유는 환경설정이 매우 간단하기 때문
 기본적으로 docker에서 제공해주는 이미지들이 있어 명령어 몇 줄 입력하는 것으로 server세팅을 할 수가 있다.  
   
 예로, 아래 링크는 docker를 이용한 mariadb와 mysql 세팅 방법이다.
-Link: <https://bhr0554.github.io/study/mysql_install>
+Link: <https://bhr0554.github.io/study/docker/docker_mysql>
   
   
 Docker는 VM과 비슷하게 보일 수 있으나 큰 차이점을 가지고 있다.  
