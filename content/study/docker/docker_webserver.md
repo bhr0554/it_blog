@@ -18,7 +18,8 @@ $ docker ps -a (도커프로세스 목록으로써 컨테이너id확인 가능)
 $ docker exec -it 컨테이너id /bin/bash (container 진입)  
 root@컨테이너id: $ exit (container 나와서 Host로 돌아감)  
   
-  
+ 
+* * *
 ### Nginx
 참고 사이트  
 docker 공식 : <https://hub.docker.com/_/nginx>  
