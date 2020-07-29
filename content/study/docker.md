@@ -50,7 +50,7 @@ docker에 대한 공부는 진행중에 있음으로 추가적으로 적어나�
 * * *
 아래 내용은 Docker 공식 사이트에서 찾아본 장점입니다.  
   
-### 1.개발, 배송 및 배포를 위해 소프트웨어를 표준화 된 단위로 패키지합니다.  
+#### 1.개발, 배송 및 배포를 위해 소프트웨어를 표준화 된 단위로 패키지합니다.  
   
 컨테이너는 코드와 모든 종속성을 패키지화하는 표준 소프트웨어 단위이므로 응용 프로그램이 한 컴퓨팅 환경에서 다른 컴퓨팅 환경으로 빠르고 안정적으로 실행됩니다.  
 Docker container 이미지는 가볍고, 독립적이며, application을 실행시키기 위한 모든 것(code,runtime,system tools, system libraries, 설정)을 포함한 경량의 소프트웨어 패키지입니다.  
@@ -67,22 +67,23 @@ Container는 환경으로부터 소프트웨어를 격리하고, development(서
  - 3. Secure(보안): Docker는 app에 격리된 공간을 제공하고, App은 container안에서 안전할 수 있다.  
   
   
-### 2. Docker Container는 모든 곳에서 동작한다:Linux, Windows, Cloud etc.  
+#### 2. Docker Container는 모든 곳에서 동작한다:Linux, Windows, Cloud etc.  
 개발자의 필수 항목에 집중하였고, OS를 공유하였기 때문에 Docker의 기술은 유일무이하다.  
   
 컨테이너가 거의 os 가상화나 다름없다.(하드웨어대신)  
 컨테이너는 휴대성이 좋고 효율적이다.  
-  
-##### CONTAINERS  
+ 
+##### Container와 VM  
+###### CONTAINERS  
 컨테이너는 코드와 종속성을 함께 패키지하는 앱 계층의 추상화입니다.  
 여러 컨테이너는 같은 machine에서 실행될 수 있고, OS 커널을 공유한다.  
 컨테이너는 VM보다 적은 공간을 차지합니다. 또, 더 많은 app을 핸들링할 수 있고, 적은 수의 OS가 필요합니다.  
   
-##### VIRTUAL MACHINES  
+###### VIRTUAL MACHINES  
 VM은 하나의 서버를 여러 서버로 나누는 물리적 하드웨어의 추상화입니다.  
 각 VM에는 운영 체제, 응용 프로그램의 전체 필수요소가 필요합니다. 바이너리 및 라이브러리까지 수십 GB를 차지합니다. 이로 인해 VM booting은 느릴 수 있습니다.  
   
-##### Containers and Virtual Machines Together  
+###### Containers and Virtual Machines Together  
 컨테이너와 VM을 함께 사용하면 app을 배포하고 관리하기 편해집니다.(직접 환경 구성을 해봐야 와닿지 않을까 싶다.)  
 
 
