@@ -8,7 +8,7 @@ draft: false
 ---
 ### MySql  
 $ docker search mysql ( mysql관련 image 검색 )  
-$ docker full mysql ( mysql name을 가진 image pull )  
+$ docker pull mysql ( mysql name을 가진 image pull )  
 $ docker run --name mysql -d -p 3307:3306 -e MYSQL_ROOT_PASSWORD=mysql mysql ( mysql 설정 및 설치)  
 -- name은 Container의 이름  
 -d는 detachedmode로 Container가 백그라운드로 실행됩니다.  
@@ -25,7 +25,7 @@ mariadb는 run명령어에서 지정한 Container의 이름
   
 ### MariaDB
 $ docker search mariadb  
-$ docker full mariadb  
+$ docker pull mariadb  
 $ docker run --name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=mariadb mariadb  
 $ docker exec -it mariadb /bin/bash  
   
