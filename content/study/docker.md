@@ -74,16 +74,16 @@ Container는 환경으로부터 소프트웨어를 격리하고, development(서
 컨테이너는 휴대성이 좋고 효율적이다.  
  
 ##### Container와 VM  
-###### CONTAINERS  
+###### - CONTAINERS  
 컨테이너는 코드와 종속성을 함께 패키지하는 앱 계층의 추상화입니다.  
 여러 컨테이너는 같은 machine에서 실행될 수 있고, OS 커널을 공유한다.  
 컨테이너는 VM보다 적은 공간을 차지합니다. 또, 더 많은 app을 핸들링할 수 있고, 적은 수의 OS가 필요합니다.  
   
-###### VIRTUAL MACHINES  
+###### - VIRTUAL MACHINES  
 VM은 하나의 서버를 여러 서버로 나누는 물리적 하드웨어의 추상화입니다.  
 각 VM에는 운영 체제, 응용 프로그램의 전체 필수요소가 필요합니다. 바이너리 및 라이브러리까지 수십 GB를 차지합니다. 이로 인해 VM booting은 느릴 수 있습니다.  
   
-###### Containers and Virtual Machines Together  
+###### - Containers and Virtual Machines Together  
 컨테이너와 VM을 함께 사용하면 app을 배포하고 관리하기 편해집니다.(직접 환경 구성을 해봐야 와닿지 않을까 싶다.)  
 
 
