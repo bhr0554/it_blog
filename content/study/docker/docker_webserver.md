@@ -9,8 +9,8 @@ draft: false
 기본 설명  
 $ docker pull 이미지명
 $ docker run -dit --name 컨테이너명 -p 외부포트:컨테이너내부포트 Host경로:Container경로 이미지명  
-  + -d ( 백그라운드 실행> webserver 등)  
-  + -it ( 입출력 해야 하는 container일 경우> db서버 등)  
+  + \-d ( 백그라운드 실행> webserver 등)  
+  + \-it ( 입출력 해야 하는 container일 경우> db서버 등)  
   + 외부에서 들어오는 tcp포트에 대응하는 container 내부 tcp포트
   + Host의 실 경로:Container내부 경로  
 $ docker ps -a (도커프로세스 목록으로써 컨테이너id확인 가능)  
